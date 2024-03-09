@@ -1,6 +1,6 @@
 import React from "react";
 
-const c = () => {
+const Footer = () => {
   return (
     <div className="border h-[400px] w-full mt-32">
       <div className="py-12 h-full w-5/6 mx-auto flex items-center justify-between">

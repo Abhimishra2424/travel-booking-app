@@ -5,7 +5,6 @@ import React from 'react'
 const Card = ({
     place
 }) => {
-
     // const url = `/catalog?city=${place.value}&min_price=${50}&max_price=${999}&type=${"luxury"}`
 
     return (
@@ -17,7 +16,7 @@ const Card = ({
                     alt='images'
                 />
                 <div className="absolute right-0 bottom-0 capitalize p-4 bg-blue-700 text-white rounded-tl-xl font-semibold">
-                    {place.value}
+                    {place.city}
                 </div>
             </div>
             <div className="flex flex-col gap-4 p-4">

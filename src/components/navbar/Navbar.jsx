@@ -6,11 +6,11 @@ import React, { useEffect, useState } from 'react'
 
 const Navbar = () => {
     const [showModal, setShowModal] = useState(false)
-    const [isScrolled, setIsScrolled] = useState(false)
-    console.log('isScrolled', isScrolled)
- 
+    const [isScrolled, setIsScrolled] = useState(false) 
 
-    const toggleModal = () => setShowModal(prev => !prev)
+    const toggleModal = () => {
+        setShowModal(prev => !prev)
+    }
 
     useEffect(() => {
         window.onscroll = () => {

@@ -3,7 +3,6 @@ import React from "react";
 import Card from "./Card";
 
 const PopularLocations = () => {
-
   return (
     <div className="h-full w-full my-36">
       <div className="h-full w-5/6 mx-auto flex flex-col justify-start">
